@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Greetings') {
             steps {
-                
-                //echo 'Hi From DevOps Team'
+                echo 'Hi From DevOps Team'
             }
         }
     }
