@@ -8,5 +8,10 @@ pipeline {
                 helloWorld()
             }
         }
+        stage('Build with maven'){
+            steps {
+                helloWorld()
+            }
+        }
     }
 }
